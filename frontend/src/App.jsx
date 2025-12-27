@@ -2,12 +2,12 @@ import { Routes, Route } from "react-router-dom"
 import MainLayout from "./layouts/MainLayout"
 import ProtectedRoute from "./components/ProtectedRoute"
 
-import Dashboard from "./pages/Dashboard"
-import Equipment from "./pages/Equipment"
-import Requests from "./pages/Requests"
-import Calendar from "./pages/Calendar"
-import Login from "./pages/Login"
-import Register from "./pages/Register"
+import Dashboard from "./Technician/Dashboard.jsx"
+import Equipment from "./employee/Equipment"
+import Requests from "./Technician/Requests.jsx"
+import Calendar from "./Technician/Calendar.jsx"
+import Login from "./Login.jsx"
+import Register from "./employee/Register"
 
 function App() {
   return (
